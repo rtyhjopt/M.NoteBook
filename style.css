@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+ max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 40px; /* الزوايا المنحنية للصندوق الرئيسي */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 40px;  /* الزوايا المنحنية للحقل */
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 50%;  /* الزوايا المنحنية للزر */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;  /* تغيير لون الزر عند المرور عليه */
+}
+
+button.delete {
+    background-color: #f44336;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 12px;  /* الزوايا المنحنية لقائمة المحاضرات */
+    display: flex;
+    justify-content: space-between;
+}
+
+li button {
+    margin-left: 10px;
+}
+
+        /* تصميم الأيقونة */
+        .icon {
+            width: 100px;
+            height: 100px;
+            background-color: #4CAF50; /* يمكنك تغيير اللون */
+            color: white; /* اللون داخل الأيقونة */
+            font-size: 50px;
+            font-weight: bold;
+            border-radius: 20px; /* جعل الزوايا منحنية */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
